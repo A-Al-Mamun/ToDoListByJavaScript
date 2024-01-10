@@ -45,6 +45,7 @@ main{
     color: #fff;
     margin: 5px 0;
     border-radius: 5px;
+    font-size: 1.5rem;
     text-align: center;
 }
 .main-right span{
@@ -52,3 +53,25 @@ main{
 }
 .main-right span a{}
 .main-right span a:hover{}
+
+/* For Sign in SEction */
+.main-right input{
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.main-right fieldset{
+    border: 0;
+    border-top: 1px solid #000!important;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+.main-right fieldset legend{
+    margin: auto;
+    padding: 0 20px;
+}
+.main-right fieldset button{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}

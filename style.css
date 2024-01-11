@@ -75,3 +75,63 @@ main{
     font-size: 1.5rem;
     padding: 5px 10px;
 }
+
+
+/* Home page Section Start */
+.left-menu{
+    flex: 0 40%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+.left-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.left-title h1{}
+.left-title i{
+    font-size: 1.5rem;
+}
+
+.search{
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.search i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.search input{
+    width: 100%;
+    border: 0;
+    padding: 5px;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.task span{
+    text-transform: uppercase;
+    color: rebeccapurple;
+}
+.task a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0;
+}
+.task a i{
+    margin-right: 10px;
+}
+
+.right-content{
+    flex: 0 60%;
+}
+/* Home page Section End */
